@@ -40,7 +40,9 @@ La seguridad no vive en esta página sino en la app del alumno:
 
 - Si cambiás el secreto o el formato, editá **`qr-core.js`** (lo comparte la
   app y esta página). Si copiaste la carpeta a otra PC, volvé a copiarla.
-- Los horarios de la escuela (períodos, recreo, horario por curso) se
-  configuran en **`centinela-system/src/qr/horarios.js`** dentro de la app.
+- Los horarios de la escuela (períodos, recreo, horario por curso y horarios
+  especiales por día con sus materias, ej.: 7°2 los martes de 14:00–18:00
+  Pdisc / 18:30–20:30 PP) se configuran en
+  **`centinela-system/src/qr/horarios.js`** dentro de la app.
 - El secreto vive en el código porque no hay backend. Con servidor, la firma
   debería calcularse allá (HMAC).
