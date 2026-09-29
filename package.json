@@ -1,0 +1,9 @@
+{
+  "name": "qr-entrada",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pantalla con el QR dinámico de la entrada (página estática, sin dependencias)",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
